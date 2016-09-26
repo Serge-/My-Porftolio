@@ -1,0 +1,737 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+@import url("media.css");
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+body {
+    overflow: hidden;
+    min-width: 340px;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+
+/* ==========================================================================
+   Nav-bar styles
+   ========================================================================== */
+#custom-bootstrap-menu.navbar-default .navbar-brand {
+    color: rgba(255, 255, 255, 1);
+}
+#custom-bootstrap-menu.navbar-default {
+    font-size: 14px;
+    background-color: rgba(97, 56, 158, 1);
+    border-width: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(97, 56, 158, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
+    color: rgba(209, 209, 209, 1);
+    background-color: rgb(157, 89, 255);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle {
+    border: none;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
+    background-color: #61389e;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #ffffff;
+}
+
+/* ==========================================================================
+   Nav-bar styles
+   ========================================================================== */
+.firstSection{
+    background: url("../img/moon_with_amazing_sky_background_by_ordelamac-d4trapf.jpg") no-repeat;
+    background-size: cover;
+    height: 580px;
+    text-align: center;
+}
+.firstSection h1{
+    font: 48px Arial;
+    margin-top: 143px;
+}
+.firstSection p{
+    font: 25px/30px Arial, sans-serif;
+    margin: 0;
+    color: white;
+}
+.h1-white{
+    color: white;
+}
+.firstSection span{
+    font:bold 1.1em Arial-black, sans-serif;
+}
+.btn {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    font-size: 25px;
+    padding: 23px 13px 23px 13px;
+    border: solid #36b1ad 3px;
+    text-decoration: none;
+    float: none;
+    width: 375px;
+    margin: 0 10px 0 0;
+}
+.btn:hover {
+    background: #36b1ad;
+    text-decoration: none;
+    color: #ffffff;
+}
+.btn:active {
+    background: #36a4a0;
+    box-shadow: none;
+    border-color: #36a4a0;
+}
+.btn:visited{
+    color: #ffffff;
+}
+.btn.active, .btn:active {
+    box-shadow: none;
+}
+.secondSection{
+    background: #222222;
+    text-align: center;
+}
+.secondSection h1{
+    font: 48px Arial;
+    text-align: center;
+}
+.secondSection p{
+    font: 20px Arial, sans-serif;
+}
+.secondSection p{
+    font: 20px Arial, sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.secondSection h3{
+    margin-bottom: 50px;
+    font: 25px Arial, sans-serif;
+}
+.thirdSection{
+    background: url("../img/16617-5-1217883962.jpg") no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.secondSection p {
+    color: #979797; }
+
+.secondSection h2, h3 {
+    color: #ffffff; }
+
+
+/* <----------------- form with select  ------------------- */
+.thirdSection select{
+    color: #2ab7a4;
+    font: 33px Arial, sans-serif;
+    height: 70px;
+    width: 150px;
+    padding-left: 20px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url(../img/apperance.jpg) 100% / 20% no-repeat #fff;
+    background-size: 20% 100%;
+}
+.thirdSection select:first-child{
+    height: 70px;
+    width: 500px;
+    background: url(../img/apperance.jpg) 100% / 10% no-repeat #fff;
+    background-size: 6% 100%;
+}
+.monthInput{
+    width: 500px;
+    margin: auto;
+}
+.monthInput select{
+    float: left;
+    margin-right: 25px;
+}
+.monthInput select:last-child{
+    float: none;
+    margin-right: 0;
+}
+.code-wrapper{
+    visibility: hidden;
+}
+.thirdSection input{
+    height: 70px;
+    width: 500px;
+    font: 33px Arial, sans-serif;
+    padding-left: 20px;
+}
+.input-group{
+    margin: auto;
+}
+.thirdSection input[type="email"]{
+    margin-top: 30px;
+}
+.thirdSection .btn{
+    background: #36b1ac;
+    margin-bottom: 50px;
+}
+.thirdSection .btn:hover {
+    background: #38c5c1;
+}
+.thirdSection .btn:active {
+    background: #36a4a0;
+}
+.wrapInput{
+    width: 500px;
+    margin: auto;
+}
+.wrapInput p{
+   text-transform: uppercase;
+    margin-bottom:15px;
+    margin-top: 15px;
+}
+/* ----------------- form with select  -------------------> */
+
+/* <----------------- Third block  -------------------- */
+
+
+.thirdSection h1{
+    color: white;
+    font: 45px Arial, sans-serif;
+    margin-top: 50px;
+}
+.thirdSection h3{
+    font: 30px Arial, sans-serif;
+    margin-bottom: 30px;
+}
+.thirdSection p{
+    font: 25px Arial, sans-serif;
+    color: #bfc0c4;
+    text-align: justify;
+}
+.wrapInput .termsParagrph{
+    font: 18px Arial, sans-serif;
+    text-transform: none;
+    margin-top: 40px;
+}
+
+/* ----------------- Third block  --------------------> */
+
+/* <----------------- Fourth block  -------------------- */
+
+.fourthSection{
+    background: #0a141e;
+}
+.slider{
+    text-align: center;
+    height: 350px;
+}
+.slider h4{
+    color: #9ca0a3;
+    font: 20px Arial, sans-serif;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+.slider h1{
+    color: white;
+    font: 60px Arial, sans-serif;
+    margin-bottom: 50px;
+}
+.slider a{
+    color: #29b6a5;
+    font: 40px Arial, sans-serif;
+}
+.btnGray{
+    width: 290px;
+    height: 95px;
+    background: #9c9c9c;
+    display: block;
+    border-radius: 20px;
+    margin: auto;
+    color: white;
+    text-align: center;
+    font-size: 65px;
+    margin-bottom: 30px;
+    padding-left: 15px;
+}
+.btnGray:hover{
+    color: white;
+    background: #8f8f8f;
+}
+.btnGray:active{
+    color: white;
+}
+.btnGray:visited{
+    color: white;
+}
+.fourthSection .slick-dots li.slick-active button:before{
+    color: #9c9c9c;
+    content: '⚫';
+}
+.fourthSection .slick-dots li button:before{
+    color: #9c9c9c;
+    content: '⚪';
+}
+.fourthSection .slick-dots{
+    bottom: 25px;
+}
+/* ------------------- Fourth block  --------------------> */
+
+
+/* <------------------ Fifth block  -------------------- */
+.fifthSection{
+    text-align: center;
+}
+.fifthSection h1{
+    color: #59369a;
+    font: 40px Arial, sans-serif;
+}
+.fifthSection h3{
+    color: #59369a;
+    font: 25px Arial, sans-serif;
+    margin-bottom: -50px;
+}
+
+.factBg{
+    width: 550px;
+    height: 490px;
+    background: #46cfe1;
+    margin: auto;
+    color: white;
+
+}
+.factBg h2{
+    padding-top: 100px;
+    font:bold 25px Arial, sans-serif;
+    text-transform: uppercase;
+}
+.factBg p{
+    padding: 30px 20px 0 20px ;
+    font:24px Arial, sans-serif;
+    line-height: 1.4;
+}
+.circle{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background: #2ca0af;
+    color: white;
+    margin: auto;
+    top: 80px;
+    position: relative;
+    border: 15px solid #ffffff;
+}
+.circle h1{
+    color: white;
+    font: bold 60px Arial, sans-serif;
+    margin-top: -15px;
+}
+.circle p{
+    font: bold 25px Arial, sans-serif;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.fifthSection .slick-dots li.slick-active button:before{
+    color: #3bafa6;
+    content: '⚫';
+}
+.fifthSection .slick-dots li button:before{
+    color: #3bafa6;
+    content: '⚪';
+}
+.fifthSection .slick-dots{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.fifthSection .slick-dots li button:before{
+
+
+}
+
+/* ------------------- Fifth block  --------------------> */
+
+/* <------------------ Sixth block  --------------------- */
+.sixthSection{
+    background: #000000;
+    text-align: center;
+    margin-top: 70px;
+    color: white;
+    padding-bottom: 70px;
+}
+.sixthSection h1{
+    font: 50px Arial, sans-serif;
+}
+.sixthSection p{
+    font: 25px Arial, sans-serif;
+    margin-bottom: 40px;
+}
+.sixthSection .slick-dots{
+    bottom: -50px;
+}
+.sixthSection .slick-dots li.slick-active button:before{
+    color: #3bafa6;
+    content: '⚫';
+}
+.sixthSection .slick-dots li button:before{
+    color: #3bafa6;
+    content: '⚪';
+}
+/* ------------------- Sixth block  --------------------> */
+
+
+/* <------------------ Seventh block  --------------------- */
+.seventhSection{
+    text-align: center;
+    color: #603899;
+    font: 25px Arial, sans-serif;
+}
+.seventhSection h3{
+    color: #603899;
+    font: 25px Arial, sans-serif;
+}
+.seventhSection h6{
+    text-align: center;
+    font:bold 20px Arial, sans-serif;
+}
+.seventhSection li{
+    list-style-type: none;
+    display:none;
+}
+.seventhSection ul{
+    padding: 0;
+}
+.storyBlockBlue, .storyBlockGreen{
+    height: 300px;
+    margin-top: 30px;
+    color: white;
+    font: 22px/28px Arial, sans-serif;
+}
+.storyBlockGreen p{
+    padding: 25px 200px 0 20px;
+    text-align: right;
+    font: 22px/27px Arial, sans-serif;
+}
+.storyBlockBlue p{
+    padding: 25px 20px 0 200px;
+}
+.storyBlockBlue{
+    background: #2ca0af;
+    padding-left: 0;
+    text-align: left;
+}
+.storyBlockBlue .pic{
+    background: #46cfe1;
+    height: 100%;
+    width: 165px;
+    float: left;
+    text-align: right;
+}
+.storyBlockGreen .pic{
+    background: #83cdac;
+    height: 100%;
+    width: 165px;
+    float: right;
+}
+.storyBlockGreen{
+    background: #5eb38c;
+    padding-right: 0;
+}
+.pic_circle{
+    background: #ffffff;
+    height: 130px;
+    width: 130px;
+    margin: auto;
+    margin-top: 80px;
+    border-radius: 50%;
+    background-position: center;
+}
+.storyBlockBlue .pic_circle img{
+    margin-top:2px;
+    margin-right: 2.5px;
+}
+.storyBlockGreen .pic_circle img{
+    margin-top:2px;
+}
+.seventhSection .btn{
+    background: #36b1ac;
+    color: white;
+    margin-top: 50px;
+}
+.seventhSection .btn:hover {
+    background: #38c5c1;
+    border-color: #38c5c1;
+}
+.seventhSection .btn:active {
+    background: #36938f;
+    border-color: #36938f;
+}
+.seventhSection.btn:visited {
+    color: white;
+}
+/* ------------------- Seventh block  --------------------> */
+
+/* ------------------- Last block  --------------------> */
+
+.lastSection{
+    min-height: 690px;
+    background: #222222;
+    color: white;
+    text-align: center;
+}
+.lastSection h1{
+    font: 50px Arial, sans-serif;
+}
+.lastSection p{
+    font: 30px Arial, sans-serif;
+    padding-bottom: 50px;
+}
+.lastSection .btn{
+    background: #36b1ac;
+    color: white;
+    margin-top: 50px;
+}
+.lastSection .btn:hover {
+    background: #38c5c1;
+    border-color: #38c5c1;
+}
+.lastSection .btn:active {
+    background: #36938f;
+    border-color: #36938f;
+}
+.lastSection .btn:visited {
+    color: white;
+}
+.lastSection img:first-child{
+    margin-right: 100px;
+}
+/* ------------------- Last block  --------------------> */
+
+/* ------------------- Footer  --------------------> */
+footer{
+    background: #61389e;
+    height: auto;
+    color: #ccc;
+    text-align: center;
+    font: 20px Arial, sans-serif;
+    padding: 30px 20px 20px 20px;
+    margin: 0;
+}
+/* ------------------- Footer  --------------------> */
+
+
+/* Preloader */
+
+#preloader {
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:#fff; /* change if the mask should have another color then white */
+    z-index:99; /* makes sure it stays on top */
+}
+
+#status {
+    width:200px;
+    height:200px;
+    position:absolute;
+    left:50%; /* centers the loading animation horizontally one the screen */
+    top:50%; /* centers the loading animation vertically one the screen */
+    background-image:url(../img/status.gif); /* path to your loading animation */
+    background-repeat:no-repeat;
+    background-position:center;
+    margin:-100px 0 0 -100px; /* is width and height divided by two */
+}

@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../font/OpenSans-Regular.eot'); /* IE9 Compat Modes */
+    src: url('../font/OpenSans-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    /*url('../font/OpenSans-Regular.woff2') format('woff2'), !* Super Modern Browsers *!*/
+    /*url('../font/OpenSans-Regular.woff') format('woff'), !* Pretty Modern Browsers *!*/
+    url('../font/OpenSans-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../font/OpenSans-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+    font-family: 'Tiempo';
+    src: url('../font/Tiempo.eot'); /* IE9 Compat Modes */
+    src: url('../font/Tiempo.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('../font/Tiempo.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../font/Tiempo.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../font/Tiempo.svg#svgFontName') format('svg'); /* Legacy iOS */
+}

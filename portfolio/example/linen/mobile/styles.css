@@ -1,0 +1,141 @@
+.row {
+  margin: 0 auto;
+  max-width: 100%; }
+
+.linen__hr {
+  border-bottom-width: 2px;
+  border-color: #a7a7a7;
+  border-top-width: 0;
+  margin: 0; }
+
+.linen__intro {
+  background: url("./images/v3/linen-00.jpg") no-repeat;
+  background-position: top;
+  background-size: cover;
+  color: #fff;
+  height: 50vh;
+  left: 0;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  top: 0; }
+  .linen__intro .linen__intro-title {
+    font-family: csb;
+    font-size: 60px;
+    padding-bottom: 1rem;
+    padding-top: 4rem; }
+  .linen__intro .linen__intro-after-title {
+    font-family: csb;
+    font-size: 14px; }
+
+.linen__section-01 {
+  background: url("./images/v3/linen-02.jpg") no-repeat;
+  background-position: top;
+  background-size: cover;
+  color: #fff;
+  height: 50vh;
+  text-align: center; }
+  .linen__section-01 .linen__section-01-text {
+    font-family: csb;
+    font-size: 16px;
+    line-height: 2.5rem;
+    text-align: center; }
+
+.linen__section-02 .linen__under-image-text:nth-child(2) {
+  padding-top: 1.5rem; }
+
+.linen__section-02 .linen__main-content-text {
+  line-height: 2rem;
+  padding: 2rem 0; }
+
+.linen__section-02 .linen__right-image-container {
+  margin-left: auto;
+  width: 83%; }
+
+.linen__section-03 {
+  padding: 0 10px; }
+
+.linen__section-05 {
+  background-image: url("./images/v3/linen-07.jpg");
+  background-size: cover;
+  color: #4d4d4f;
+  height: 40vh;
+  margin: 1.8rem 0; }
+
+.linen__section-06 {
+  padding-bottom: 2rem; }
+  .linen__section-06 .linen__section-06-first {
+    padding: 0 4rem; }
+    .linen__section-06 .linen__section-06-first .linen__main-content-text {
+      padding-top: 3rem; }
+  .linen__section-06 .linen__main-content-text {
+    font-size: 14px;
+    line-height: 1.9rem; }
+  .linen__section-06 .linen__section-06-second {
+    margin-top: 1.5rem;
+    padding: 0 1rem; }
+  .linen__section-06 .linen__text-italy {
+    font-family: csb--italic;
+    letter-spacing: 1px; }
+
+.linen__section-07 {
+  padding-bottom: 2.5rem;
+  text-align: center; }
+  .linen__section-07 .linen__shop-collection-container {
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 1.75rem;
+    padding: 2rem 0; }
+  .linen__section-07 .linen__shop-btn {
+    font-size: 7px;
+    padding: 8px 17px; }
+
+.linen__content-section {
+  margin: 0 auto;
+  max-width: 1024px;
+  padding: 0 20px 35px; }
+  .linen__content-section .linen__text-italy {
+    font-family: csb--italic;
+    letter-spacing: 1px; }
+
+.linen__main-pre-title {
+  color: #808284;
+  font-family: csb;
+  font-size: 9px;
+  letter-spacing: 0.2rem;
+  padding-top: 3rem;
+  text-align: center;
+  text-transform: uppercase; }
+
+.linen__main-title {
+  color: #4d4d4f;
+  font-family: csb;
+  font-size: 24px;
+  line-height: 5rem;
+  margin-bottom: 1rem;
+  text-align: center; }
+
+.linen__main-content-text {
+  color: #4d4d4f;
+  font-family: csb;
+  font-size: 14px;
+  line-height: 1.9rem;
+  padding: 1rem 0; }
+
+.linen__under-image-text {
+  color: #808284;
+  font-family: csb;
+  font-size: 10.5px;
+  line-height: 0.3rem;
+  padding-top: 1rem;
+  text-transform: capitalize; }
+  .linen__under-image-text span {
+    letter-spacing: 1px;
+    text-transform: uppercase; }
+
+img {
+  height: auto;
+  width: 100%; }
+
+.linen__left-image-container img {
+  width: 82%; }

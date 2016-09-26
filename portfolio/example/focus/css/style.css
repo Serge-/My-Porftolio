@@ -1,0 +1,1101 @@
+@import url(reset.css);
+@import url(fonts.css);
+body{
+	background-color: #cccccc;
+}
+.wrapper{
+	height:2494px;
+	width:1600px;
+
+}
+.header{
+	height: 1196px;
+	width: 1600px;
+	margin: 0 auto;
+	background-color: #f4f4f4;
+}
+.content{
+	height: 426px;
+	width: 1600px;
+	margin: 0 auto;
+	background-color: #e3e3e3;
+}
+.social{
+	height: 738px;
+	width: 1600px;
+	margin: 0 auto;
+	background-color: #f4f4f4;
+}
+.footer{
+	height: 134px;
+	width: 1600px;
+	margin: 0 auto;
+	background-color: #e3e3e3;
+}
+
+.header{
+	background-image: url(../images/header_bg.jpg);
+	background-repeat: no-repeat;
+	background-position: 0 -70px;
+	position: relative;
+}
+.heder_logo{
+	height: 255px;
+	width:635px;
+	background-image: url(../images/logo.png);
+	background-repeat: no-repeat;
+	background-position: 35% 10%;
+	position: relative;
+	margin: 0 auto;
+	top:8%;
+
+}
+.header_arrow{
+	height: 15px;
+	width: 50px;
+	background-image: url(../images/header_arrow.png);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	position: relative;
+	margin-top: 9.5%;
+}
+
+.heder_logo h1{
+	font:60px Pacifico, Georgia, serif;
+	color: #000;
+	margin-left: 45%;
+}
+.heder_logo p{
+	font:34px Raleway-Light, Lucida Sans Unicode, Sans-serif;
+	color: #000;
+	margin-top: 5%;
+}
+/*Хедер нижняя часть с контентом*/
+.header_content_left,
+.header_content_right{
+	width: 300px;
+	height: 280px;
+	margin-top: 31.5%;
+	overflow: hidden;
+
+}
+.header_content_left{
+	float: left;
+	margin-left: 17%;
+}
+.header_content_right{
+	float: right;
+	margin-right: 17%;
+}
+.header_content_left h3,
+.header_content_right h3,
+.header_content_left h4,
+.header_content_right h4{
+	font:22px Myriad Pro Semibold;
+	margin-bottom: 18px;
+}
+.header_content_left p,
+.header_content_right p{
+	font:16px Myriad Pro Regular, Sans-serif;
+	color: #848484;
+	margin-bottom: 50px;
+	line-height: 1.5;
+}
+.header_phone{
+	height: 755px;
+	width: 364px;
+	background-image: url(../images/iphone.png);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	position: relative;
+	margin-top:9.3%;
+}
+ 
+
+.circle1{
+	height: 26px;
+	width: 26px;
+	background-image: url(../images/point_dark.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	border-radius: 13px;
+	margin: 199px 0 0 232px;
+}
+.circle1 a,
+.circle2 a,
+.circle3 a,
+.circle4 a{
+	display: block;
+	height: 26px;
+	width: 26px;
+	border-radius: 13px;
+}
+
+
+.circle1:hover,
+.circle2:hover,
+.circle3:hover,
+.circle4:hover{
+	height: 33px;
+	width: 33px;
+	border-radius: 16px;
+	background-image: url(../images/point_hover.png);
+	background-repeat: no-repeat;
+}
+.circle1:hover{
+	margin: 198px 0 0 231px;
+}
+.circle2:hover{
+	margin: 294px 0 0 97px;
+}
+.circle3:hover{
+	margin: 509px 0 0 100px;
+}
+.circle4:hover{
+	margin: 405px 0 0 237px;
+}
+
+.circle2,
+.circle3,
+.circle4{
+	height: 26px;
+	width: 26px;
+	border-radius: 13px;
+	background-image: url(../images/point.png);
+	background-repeat: no-repeat;
+	position: absolute;
+}
+
+.circle2{
+	margin: 296px 0 0 100px;
+}
+.circle3{
+	margin: 511px 0 0 103px;
+}
+.circle4{
+	margin: 406px 0 0 239px;
+}
+/*конец блока Хедер*/
+/*Начало блока с видео(контент)*/
+.content_words{
+	height: 234px;
+	width: 532px;
+	float: left;
+	margin: 60px 0 0 208px;
+}
+.content_words p{
+	font:16px HelveticaNeue, Sans-serif;
+	color:#848484;
+	margin-top: 25px;
+	margin-bottom: 30px;
+}
+.content_words h4{
+	font:22px Myriad Pro Semibold, Sans-serif;
+	
+}
+.video{
+	height: 307px;
+	width: 500px;
+	float: right;
+	margin: 60px 212px 0 0;
+}
+.link_content1,
+.link_content2,
+.link_content3{
+	height: 68px;
+	width: 68px;
+	float: left;
+	background-color: #c5c5c5;
+	border-radius: 34px;
+	margin-right: 20px;
+}
+.link_content1:hover,
+.link_content2:hover,
+.link_content3:hover{
+	height: 68px;
+	width: 68px;
+	background-color: #222222;
+	border-radius: 34px;
+}
+
+.link_content1{
+	background-image: url(../images/apple.png);
+	background-repeat: no-repeat;
+}
+.link_content2{
+	background-image: url(../images/android.png);
+	background-repeat: no-repeat;
+}
+.link_content3{
+	background-image: url(../images/windows.png);
+	background-repeat: no-repeat;
+}
+/*Конец блока с видео*/
+/*Начало блока с соц-сетями*/
+
+.social_photo{
+	height: 321px;
+	width: 1600px;
+	margin-top: 50px;
+	margin-bottom: 53px;
+}
+.social_horizontal{
+	height: 80px;
+	width: 1600px;
+}
+.photo1,
+.photo2,
+.photo3,
+.photo4,
+.photo5,
+.photo6,
+.photo7,
+.photo8,
+.photo9,
+.photo10,
+.photo11,
+.photo12,
+.photo13,
+.photo14,
+.photo15,
+.photo16,
+.photo17,
+.photo18,
+.photo19,
+.photo20,
+.photo21,
+.photo22,
+.photo23,
+.photo24,
+.photo25,
+.photo26,
+.photo27,
+.photo28,
+.photo29,
+.photo30,
+.photo31,
+.photo32,
+.photo33,
+.photo34,
+.photo35,
+.photo36,
+.photo37,
+.photo38,
+.photo39,
+.photo40,
+.photo41,
+.photo42,
+.photo43,
+.photo44,
+.photo45,
+.photo46,
+.photo47,
+.photo48,
+.photo49,
+.photo50,
+.photo51,
+.photo52,
+.photo53,
+.photo54,
+.photo55,
+.photo56,
+.photo57,
+.photo58,
+.photo59,
+.photo60,
+.photo61,
+.photo62,
+.photo63,
+.photo64,
+.photo65,
+.photo66,
+.photo67,
+.photo68,
+.photo69,
+.photo70,
+.photo71,
+.photo72,
+.photo73,
+.photo74,
+.photo75,
+.photo76,
+.photo77,
+.photo78,
+.photo79,
+.photo80{
+	width: 80px;
+	height: 80px;
+	float: left;
+	background-position: 0 -80px;
+
+	
+}
+.photo1{
+	background-image: url(../images/faces/1.jpg);
+	background-repeat: no-repeat;
+}
+.photo2{
+	background-image: url(../images/faces/2.jpg);
+	background-repeat: no-repeat;
+}
+.photo3{
+	background-image: url(../images/faces/3.jpg);
+	background-repeat: no-repeat;
+}
+.photo4{
+	background-image: url(../images/faces/4.jpg);
+	background-repeat: no-repeat;
+}
+.photo5{
+	background-image: url(../images/faces/5.jpg);
+	background-repeat: no-repeat;
+}
+.photo6{
+	background-image: url(../images/faces/6.jpg);
+	background-repeat: no-repeat;
+}
+.photo7{
+	background-image: url(../images/faces/7.jpg);
+	background-repeat: no-repeat;
+}
+.photo8{
+	background-image: url(../images/faces/8.jpg);
+	background-repeat: no-repeat;
+}
+.photo9{
+	background-image: url(../images/faces/9.jpg);
+	background-repeat: no-repeat;
+}
+.photo10{
+	background-image: url(../images/faces/10.jpg);
+	background-repeat: no-repeat;
+}
+.photo11 {
+	background-image: url(../images/faces/11.jpg);
+	background-repeat: no-repeat;
+} 
+.photo12{
+	background-image: url(../images/faces/12.jpg);
+	background-repeat: no-repeat;
+}
+.photo13{
+	background-image: url(../images/faces/13.jpg);
+	background-repeat: no-repeat;
+}
+.photo14{
+	background-image: url(../images/faces/14.jpg);
+	background-repeat: no-repeat;
+}
+.photo15{
+	background-image: url(../images/faces/15.jpg);
+	background-repeat: no-repeat;
+}
+.photo16{
+	background-image: url(../images/faces/16.jpg);
+	background-repeat: no-repeat;
+}
+.photo17{
+	background-image: url(../images/faces/17.jpg);
+	background-repeat: no-repeat;
+}
+.photo18{
+	background-image: url(../images/faces/18.jpg);
+	background-repeat: no-repeat;
+}
+.photo19{
+	background-image: url(../images/faces/19.jpg);
+	background-repeat: no-repeat;
+}
+.photo20{
+	background-image: url(../images/faces/20.jpg);
+	background-repeat: no-repeat;
+}
+.photo21{
+	background-image: url(../images/faces/21.jpg);
+	background-repeat: no-repeat;
+}
+.photo22{
+	background-image: url(../images/faces/22.jpg);
+	background-repeat: no-repeat;
+}
+.photo23{
+	background-image: url(../images/faces/23.jpg);
+	background-repeat: no-repeat;
+}
+.photo24{
+	background-image: url(../images/faces/24.jpg);
+	background-repeat: no-repeat;
+}
+.photo25{
+	background-image: url(../images/faces/25.jpg);
+	background-repeat: no-repeat;
+}
+.photo26{
+	background-image: url(../images/faces/26.jpg);
+	background-repeat: no-repeat;
+}
+.photo27{
+	background-image: url(../images/faces/27.jpg);
+	background-repeat: no-repeat;
+}
+.photo28{
+	background-image: url(../images/faces/28.jpg);
+	background-repeat: no-repeat;
+}
+.photo29{
+	background-image: url(../images/faces/29.jpg);
+	background-repeat: no-repeat;
+}
+.photo30{
+	background-image: url(../images/faces/30.jpg);
+	background-repeat: no-repeat;
+}
+.photo31{
+	background-image: url(../images/faces/80.png);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+.photo32{
+	background-image: url(../images/faces/31.jpg);
+	background-repeat: no-repeat;
+}
+.photo33{
+	background-image: url(../images/faces/32.jpg);
+	background-repeat: no-repeat;
+}
+.photo34{
+	background-image: url(../images/faces/33.jpg);
+	background-repeat: no-repeat;
+}
+.photo35{
+	background-image: url(../images/faces/34.jpg);
+	background-repeat: no-repeat;
+}
+.photo36{
+	background-image: url(../images/faces/35.jpg);
+	background-repeat: no-repeat;
+}
+.photo37{
+	background-image: url(../images/faces/36.jpg);
+	background-repeat: no-repeat;
+}
+.photo38{
+	background-image: url(../images/faces/37.jpg);
+	background-repeat: no-repeat;
+}
+.photo39{
+	background-image: url(../images/faces/38.png);
+	background-repeat: no-repeat;
+	background-position: 0 0 ;
+}
+.photo40{
+	background-image: url(../images/faces/39.jpg);
+	background-repeat: no-repeat;
+}
+.photo41{
+	background-image: url(../images/faces/40.jpg);
+	background-repeat: no-repeat;
+}
+.photo42{
+	background-image: url(../images/faces/41.jpg);
+	background-repeat: no-repeat;
+}
+.photo43{
+	background-image: url(../images/faces/42.jpg);
+	background-repeat: no-repeat;
+}
+.photo44{
+	background-image: url(../images/faces/43.jpg);
+	background-repeat: no-repeat;
+}
+.photo45{
+	background-image: url(../images/faces/44.jpg);
+	background-repeat: no-repeat;
+}
+.photo46{
+	background-image: url(../images/faces/45.jpg);
+	background-repeat: no-repeat;
+}
+.photo47{
+	background-image: url(../images/faces/46.jpg);
+	background-repeat: no-repeat;
+}
+.photo48{
+	background-image: url(../images/faces/47.jpg);
+	background-repeat: no-repeat;
+}
+.photo49{
+	background-image: url(../images/faces/48.jpg);
+	background-repeat: no-repeat;
+}
+.photo50{
+	background-image: url(../images/faces/49.jpg);
+	background-repeat: no-repeat;
+}
+.photo51{
+	background-image: url(../images/faces/50.jpg);
+	background-repeat: no-repeat;
+}
+.photo52{
+	background-image: url(../images/faces/51.jpg);
+	background-repeat: no-repeat;
+}
+.photo53{
+	background-image: url(../images/faces/52.jpg);
+	background-repeat: no-repeat;
+}
+.photo54{
+	background-image: url(../images/faces/53.jpg);
+	background-repeat: no-repeat;
+}
+.photo55{
+	background-image: url(../images/faces/54.jpg);
+	background-repeat: no-repeat;
+}
+.photo56{
+	background-image: url(../images/faces/55.jpg);
+	background-repeat: no-repeat;
+}
+.photo57{
+	background-image: url(../images/faces/56.jpg);
+	background-repeat: no-repeat;
+}
+.photo58{
+	background-image: url(../images/faces/57.jpg);
+	background-repeat: no-repeat;
+}
+.photo59{
+	background-image: url(../images/faces/58.jpg);
+	background-repeat: no-repeat;
+}
+.photo60{
+	background-image: url(../images/faces/59.jpg);
+	background-repeat: no-repeat;
+}
+.photo61{
+	background-image: url(../images/faces/60.jpg);
+	background-repeat: no-repeat;
+}
+.photo62{
+	background-image: url(../images/faces/61.jpg);
+	background-repeat: no-repeat;
+}
+.photo63{
+	background-image: url(../images/faces/62.jpg);
+	background-repeat: no-repeat;
+}
+.photo64{
+	background-image: url(../images/faces/63.jpg);
+	background-repeat: no-repeat;
+}
+.photo65{
+	background-image: url(../images/faces/64.jpg);
+	background-repeat: no-repeat;
+}
+.photo66{
+	background-image: url(../images/faces/65.jpg);
+	background-repeat: no-repeat;
+}
+.photo67{
+	background-image: url(../images/faces/66.jpg);
+	background-repeat: no-repeat;
+}
+.photo68{
+	background-image: url(../images/faces/67.jpg);
+	background-repeat: no-repeat;
+}
+.photo69{
+	background-image: url(../images/faces/68.jpg);
+	background-repeat: no-repeat;
+}
+.photo70{
+	background-image: url(../images/faces/69.jpg);
+	background-repeat: no-repeat;
+}
+.photo71{
+	background-image: url(../images/faces/70.jpg);
+	background-repeat: no-repeat;
+}
+.photo72{
+	background-image: url(../images/faces/71.jpg);
+	background-repeat: no-repeat;
+}
+.photo73{
+	background-image: url(../images/faces/72.jpg);
+	background-repeat: no-repeat;
+}
+.photo74{
+	background-image: url(../images/faces/73.jpg);
+	background-repeat: no-repeat;
+}
+.photo75{
+	background-image: url(../images/faces/74.jpg);
+	background-repeat: no-repeat;
+}
+.photo76{
+	background-image: url(../images/faces/75.jpg);
+	background-repeat: no-repeat;
+}
+.photo77{
+	background-image: url(../images/faces/76.jpg);
+	background-repeat: no-repeat;
+}
+.photo78{
+	background-image: url(../images/faces/77.jpg);
+	background-repeat: no-repeat;
+}
+.photo79{
+	background-image: url(../images/faces/78.jpg);
+	background-repeat: no-repeat;
+}
+.photo80{
+	background-image: url(../images/faces/79.jpg);
+	background-repeat: no-repeat;
+}
+
+.photo1:hover{
+	background-position: 0 0px;
+}
+.photo2:hover{
+	background-position: 0 0px;
+}
+.photo3:hover{
+	background-position: 0 0px;
+}
+.photo4:hover{
+	background-position: 0 0px;
+}
+.photo5:hover{
+	background-position: 0 0px;
+}
+.photo6:hover{
+	background-position: 0 0px;
+}
+.photo7:hover{
+	background-position: 0 0px;
+}
+.photo8:hover{
+	background-position: 0 0px;
+}
+.photo9:hover{
+	background-position: 0 0px;
+}
+.photo10:hover{
+	background-position: 0 0px;
+}
+.photo11:hover{
+	background-position: 0 0px;
+}
+.photo12:hover{
+	background-position: 0 0px;
+}
+.photo13:hover{
+	background-position: 0 0px;
+}
+.photo14:hover{
+	background-position: 0 0px;
+}
+.photo15:hover{
+	background-position: 0 0px;
+}
+.photo16:hover{
+	background-position: 0 0px;
+}
+.photo17:hover{
+	background-position: 0 0px;
+}
+.photo18:hover{
+	background-position: 0 0px;
+}
+.photo19:hover{
+	background-position: 0 0px;
+}
+.photo20:hover{
+	background-position: 0 0px;
+}
+.photo21:hover{
+	background-position: 0 0px;
+}
+.photo22:hover{
+	background-position: 0 0px;
+}
+.photo23:hover{
+	background-position: 0 0px;
+}
+.photo24:hover{
+	background-position: 0 0px;
+}
+.photo25:hover{
+	background-position: 0 0px;
+}
+.photo26:hover{
+	background-position: 0 0px;
+}
+.photo27:hover{
+	background-position: 0 0px;
+}
+.photo28:hover{
+	background-position: 0 0px;
+}
+.photo29:hover{
+	background-position: 0 0px;
+}
+.photo30:hover{
+	background-position: 0 0px;
+}
+
+.photo32:hover{
+	background-position: 0 0px;
+}
+.photo33:hover{
+	background-position: 0 0px;
+}
+.photo34:hover{
+	background-position: 0 0px;
+}
+.photo35:hover{
+	background-position: 0 0px;
+}
+.photo36:hover{
+	background-position: 0 0px;
+}
+.photo37:hover{
+	background-position: 0 0px;
+}
+
+.photo38:hover{
+	background-position: 0 0px;
+}
+.photo40:hover{
+	background-position: 0 0px;
+}
+.photo41:hover{
+	background-position: 0 0px;
+}
+.photo42:hover{
+	background-position: 0 0px;
+}
+.photo43:hover{
+	background-position: 0 0px;
+}
+.photo44:hover{
+	background-position: 0 0px;
+}
+.photo45:hover{
+	background-position: 0 0px;
+}
+.photo46:hover{
+	background-position: 0 0px;
+}
+.photo47:hover{
+	background-position: 0 0px;
+}
+.photo48:hover{
+	background-position: 0 0px;
+}
+.photo49:hover{
+	background-position: 0 0px;
+}
+.photo50:hover{
+	background-position: 0 0px;
+}
+.photo51:hover{
+	background-position: 0 0px;
+}
+.photo52:hover{
+	background-position: 0 0px;
+}
+.photo53:hover{
+	background-position: 0 0px;
+}
+.photo54:hover{
+	background-position: 0 0px;
+}
+.photo55:hover{
+	background-position: 0 0px;
+}
+.photo56:hover{
+	background-position: 0 0px;
+}
+.photo57:hover{
+	background-position: 0 0px;
+}
+.photo58:hover{
+	background-position: 0 0px;
+}
+.photo59:hover{
+	background-position: 0 0px;
+}
+.photo60:hover{
+	background-position: 0 0px;
+}
+.photo61:hover{
+	background-position: 0 0px;
+}
+.photo62:hover{
+	background-position: 0 0px;
+}
+.photo63:hover{
+	background-position: 0 0px;
+}
+.photo64:hover{
+	background-position: 0 0px;
+}
+.photo65:hover{
+	background-position: 0 0px;
+}
+.photo66:hover{
+	background-position: 0 0px;
+}
+.photo67:hover{
+	background-position: 0 0px;
+}
+.photo68:hover{
+	background-position: 0 0px;
+}
+.photo69:hover{
+	background-position: 0 0px;
+}
+.photo70:hover{
+	background-position: 0 0px;
+}
+.photo71:hover{
+	background-position: 0 0px;
+}
+.photo72:hover{
+	background-position: 0 0px;
+}
+.photo73:hover{
+	background-position: 0 0px;
+}
+.photo74:hover{
+	background-position: 0 0px;
+}
+.photo75:hover{
+	background-position: 0 0px;
+}
+.photo76:hover{
+	background-position: 0 0px;
+}
+.photo77:hover{
+	background-position: 0 0px;
+}
+.photo78:hover{
+	background-position: 0 0px;
+}
+.photo79:hover{
+	background-position: 0 0px;
+}
+.photo80:hover{
+	background-position: 0 0px;
+}
+
+.photo1 a,
+.photo2 a,
+.photo3 a,
+.photo4 a,
+.photo5 a,
+.photo6 a,
+.photo7 a,
+.photo8 a,
+.photo9 a,
+.photo10 a,
+.photo11 a,
+.photo12 a,
+.photo13 a,
+.photo14 a,
+.photo15 a,
+.photo16 a,
+.photo17 a,
+.photo18 a,
+.photo19 a,
+.photo20 a,
+.photo21 a,
+.photo22 a,
+.photo23 a,
+.photo24 a,
+.photo25 a,
+.photo26 a,
+.photo27 a,
+.photo28 a,
+.photo29 a,
+.photo30 a,
+.photo31 a,
+.photo32 a,
+.photo33 a,
+.photo34 a,
+.photo35 a,
+.photo36 a,
+.photo37 a,
+.photo38 a,
+.photo39 a,
+.photo40 a,
+.photo41 a,
+.photo42 a,
+.photo43 a,
+.photo44 a,
+.photo45 a,
+.photo46 a,
+.photo47 a,
+.photo48 a,
+.photo49 a,
+.photo50 a,
+.photo51 a,
+.photo52 a,
+.photo53 a,
+.photo54 a,
+.photo55 a,
+.photo56 a,
+.photo57 a,
+.photo58 a,
+.photo59 a,
+.photo60 a,
+.photo61 a,
+.photo62 a,
+.photo63 a,
+.photo64 a,
+.photo65 a,
+.photo66 a,
+.photo67 a,
+.photo68 a,
+.photo69 a,
+.photo70 a,
+.photo71 a,
+.photo72 a,
+.photo73 a,
+.photo74 a,
+.photo75 a,
+.photo76 a,
+.photo77 a,
+.photo78 a,
+.photo79 a,
+.photo80 a{
+	display: block;
+	height: 80px;
+	width: 80px;
+}
+.social_links{
+	height: 35px;
+	width: 280px;
+	margin: 0 auto;
+	margin-top: 22px;
+}
+.social_links li{
+	height: 34px;
+	width: 34px;
+	float: left;
+	background-color: #d1d1d1;
+	border-radius: 17px;
+	margin-right: 2.2%;
+	margin-left: 2.2%;
+
+
+
+}
+.social_links li a{
+	height: 34px;
+	width: 34px;
+	display: block;
+}
+.social_links li:hover{
+	height: 34px;
+	width: 34px;
+	background-color: #575757;
+	border-radius: 17px;
+}
+
+
+.social_1{
+	height: 20px;
+	width: 20px;
+	background-image: url(../images/twitter.png);
+	background-repeat: no-repeat;
+	background-position: 9px 10px;
+
+}
+
+.social_2{
+	height: 20px;
+	width: 20px;
+	background-image: url(../images/facebook.png);
+	background-repeat: no-repeat;
+	background-position: 12px 8px;
+}
+
+.social_3{
+	height: 20px;
+	width: 20px;
+	background-image: url(../images/painterest.png);
+	background-repeat: no-repeat;
+	background-position: 7px 7px;
+}
+.social_4{
+	height: 20px;
+	width: 20px;
+	background-image: url(../images/google+.png);
+	background-repeat: no-repeat;
+	background-position: 8px 8px;
+}
+.social_5{
+	height: 20px;
+	width: 20px;
+	background-image: url(../images/linkedin.png);
+	background-repeat: no-repeat;
+	background-position: 10px 8px;
+}
+.social_6{
+	height: 20px;
+	width: 20px;
+	background-image: url(../images/youtube.png);
+	background-repeat: no-repeat;
+	background-position: 8px 6px;
+}
+.social{
+	text-align: center;
+}
+.social h4{
+	font: 24px Myriad Pro Regular, Sans-serif;
+	text-align: center;
+	
+	padding-top: 57px;
+	padding-bottom: 25px;
+}
+.social span{
+	font: bold 16px Myriad Pro Condensed, Sans-serif;
+}
+.social p{
+	font:bold 14px Myriad Pro Regular, Sans-serif;
+}
+.last_paragraf p{
+	font: 16px Myriad Pro , serif;
+	color:#848484;
+	margin-top: 20px;
+}
+.social h3{
+	font:bold 26px Myriad Pro Semibold, serif;
+
+}
+/*начало футера*/
+.footer_nav{
+	height: 22px;
+	width: 560px;
+	margin: 0 auto;
+	position: relative;
+	top: 55px;
+
+}
+.footer_nav li{
+	float: left;
+	margin: 0 3.2% 0 3.2%;
+}
+.footer_nav a{
+	text-decoration: none;
+	color:#848484;
+	font: 16px Myriad Pro, Sans-serif;
+}
+.footer_nav a:hover{
+	color: #000;
+}
+.footer_nav li:first-child{
+	margin-left: 0px;
+}

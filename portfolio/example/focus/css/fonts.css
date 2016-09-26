@@ -1,0 +1,24 @@
+@font-face {
+    font-family:proximanova-semibold; /* Имя шрифта */
+    src: url(../fonts/proximanova-semibold.otf); /* Путь к файлу со шрифтом */
+   }
+@font-face{
+	font-family:proximanova-light; /* Имя шрифта */
+	src: url(../fonts/proximanova-light.otf); /* Путь к файлу со шрифтом */
+}
+@font-face{
+	font-family:proximanova-bold; /* Имя шрифта */
+	src: url(../fonts/proximanova-bold.otf); /* Путь к файлу со шрифтом */
+}
+@font-face{
+	font-family:Pacifico; /* Имя шрифта */
+	src: url(../fonts/Pacifico.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face{
+	font-family:Raleway-Light; /* Имя шрифта */
+	src: url(../fonts/Raleway-Light.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face{
+	font-family:HelveticaNeue; /* Имя шрифта */
+	src: url(../fonts/HelveticaNeue.ttf); /* Путь к файлу со шрифтом */
+}

@@ -1,0 +1,411 @@
+.summer__product-title {
+  padding: 37.5px 0 22px 0;
+  font-family: everlane-sans--light, graphik;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 0.5rem;
+  color: #606060; }
+
+.looks__root {
+  height: 65vh;
+  position: relative; }
+
+.looks__viewport {
+  width: 80vw;
+  height: 100%;
+  position: relative;
+  overflow-x: hidden;
+  margin: 0 auto; }
+
+.looks__arrow--left,
+.looks__arrow--right {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 10vw;
+  z-index: 1; }
+
+.looks__arrow--left {
+  left: 0; }
+
+.looks__arrow--right {
+  right: 0; }
+
+.looks__arrow-image {
+  height: 20px;
+  width: 12px; }
+
+.looks__look {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row nowrap;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%; }
+
+.looks__look-2 {
+  margin-left: 90vw; }
+
+.looks__look-3 {
+  margin-left: 180vw; }
+
+.looks__pips-container {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row nowrap;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  height: 10%;
+  bottom: 0; }
+
+.looks__pip-outer-circle {
+  border: 1px solid #fff;
+  background-color: transparent;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  margin: 0 10px; }
+
+.looks__pip {
+  background-color: #fff;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  margin: 3px 3px; }
+
+.summer__image {
+  width: 80%;
+  max-width: 600px; }
+
+.summer__image--inside {
+  max-width: 100%;
+  padding-left: 5%;
+  padding-right: 5%; }
+
+.summer__hr {
+  border: 0 solid #5f5f61;
+  border-top-width: 1px;
+  clear: both;
+  height: 0;
+  margin: 0 auto;
+  max-width: 600px;
+  width: 80%;
+  padding-bottom: 50px; }
+
+.summer__waitlist-button-container {
+  padding-bottom: 40px; }
+
+.summer__waitlist-button,
+.summer__waitlist-button-container > div > a {
+  letter-spacing: 0.3rem;
+  margin-right: -0.3rem;
+  border: 2px solid #4c4c4e;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-family: Graphik-Medium, graphik;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 21px 0 30px 0;
+  padding: 15px 60px;
+  text-transform: uppercase;
+  text-decoration: none; }
+
+.summer__waitlist-button {
+  margin-bottom: 50px; }
+
+.rsvp__waitlist-caption,
+.summer__waitlist-button--clicked {
+  display: block;
+  font-family: csb;
+  margin: 36px 0 0 0;
+  padding: 0;
+  font-size: 12px; }
+
+.summer__waitlist-button--clicked {
+  margin-bottom: 36px; }
+
+.summer__fixed-background {
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  background: url("https://everlane.imgix.net/static/content-page-images/elevate-summer/mobile/v4/01-hero.jpg?dpr=1&q=65") no-repeat;
+  background-size: cover;
+  background-position: 50% 100%;
+  z-index: -1; }
+
+.summer__elevate-title {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  letter-spacing: 24px;
+  margin-right: -24px;
+  color: #fff;
+  font-family: everlane-sans--light, graphik, sans-serif;
+  font-size: 48px;
+  line-height: 68px;
+  text-align: left;
+  text-transform: uppercase; }
+  @media (max-width: 320px) {
+    .summer__elevate-title {
+      letter-spacing: 16px;
+      margin-right: -16px; } }
+
+.summer__elevate-title--intro {
+  position: absolute;
+  top: calc(50vh - 68px);
+  left: 0;
+  text-align: center;
+  width: 100vw;
+  overflow-x: hidden;
+  margin-left: 19px;
+  width: calc(100vw - 19px); }
+
+.summer__intro {
+  color: #fff;
+  height: calc(90vh - 40px);
+  overflow: hidden;
+  text-align: center; }
+
+.summer__arrow-bottom {
+  margin-bottom: -1px;
+  height: 10vh;
+  background-color: #fbf9f6; }
+  .summer__arrow-bottom .arrow_image {
+    padding-top: 15px;
+    width: 10px; }
+
+.summer__intro-text {
+  padding-bottom: 38.5px;
+  font-size: 17px;
+  letter-spacing: 1px;
+  line-height: 30px;
+  margin: 0 15px; }
+
+.summer__made--Italic {
+  padding-top: 2rem;
+  font-family: csb-italic;
+  font-size: 12px; }
+
+.summer__product-date {
+  color: #fff;
+  font-family: everlane-sans--light, graphik, sans-serif;
+  font-size: 60px;
+  letter-spacing: 1.7rem;
+  margin-bottom: -40px;
+  mix-blend-mode: difference;
+  position: relative;
+  z-index: 5; }
+
+.summer__subtitle {
+  color: #27282d;
+  font-size: 17px;
+  line-height: 3rem;
+  margin: 14px 15px 0 15px; }
+
+.summer__product-container {
+  background: #fbf9f6;
+  color: #54555c;
+  font-family: csb;
+  text-align: center; }
+  .summer__product-container > .summer__title {
+    font-family: everlane-sans;
+    padding-top: 20px;
+    font-size: 16px;
+    letter-spacing: 0.3rem;
+    color: #5f5f61;
+    padding-bottom: 20px;
+    line-height: 6rem; }
+
+.summer__babo-product-container {
+  padding-top: 40px; }
+
+.summer__sandals-2-product-container {
+  padding: 0 0 20px 0; }
+  .summer__sandals-2-product-container > .summer__waitlist-button {
+    margin-bottom: 71px; }
+
+.summer__nyc-outpost {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: url(https://everlane.imgix.net/static/content-page-images/elevate-summer/mobile/v2/11-img.png?dpr=1&q=65) no-repeat;
+  background-size: cover;
+  text-align: center;
+  height: 560px; }
+
+.summer__nyc-outpost-date {
+  letter-spacing: 3.5px;
+  margin-right: -3.5px;
+  color: #4c4c4e;
+  font-size: 11px;
+  line-height: 20px;
+  padding-bottom: 25px; }
+
+.summer__nyc-outpost-title {
+  color: #4c4c4e;
+  font-family: csb;
+  font-size: 48px;
+  line-height: 55px;
+  padding-bottom: 15px; }
+
+.summer__nyc-outpost-text {
+  color: #4c4c4e;
+  font-family: csb;
+  font-size: 16px;
+  line-height: 34px; }
+
+.summer__walkoff {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #fff;
+  font-family: graphik;
+  height: 100vh;
+  overflow: hidden;
+  text-transform: uppercase; }
+  .summer__walkoff > .summer__button {
+    letter-spacing: 0.3rem;
+    margin-right: -0.3rem;
+    margin: 60px 0;
+    font-size: 12px; }
+  .summer__walkoff > .summer__copy-1 {
+    font-size: 80px; }
+  .summer__walkoff .summer__links--tab {
+    width: 100%;
+    text-align: center; }
+    .summer__walkoff .summer__links--tab > li {
+      float: none;
+      display: inline-block;
+      margin: 1rem;
+      padding: 0; }
+  .summer__walkoff .summer__links--tab img {
+    width: 25px; }
+  .summer__walkoff > .summer__made--Italic {
+    text-transform: capitalize;
+    font-size: 15px; }
+
+.summer__babo-look-1 {
+  background: url("https://everlane.imgix.net/static/content-page-images/elevate-summer/mobile/v3/02-img.jpg?dpr=1&q=65") no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.summer__babo-look-2 {
+  background: url("https://everlane-2.imgix.net/static/content-page-images/elevate-summer/mobile/v2/03-img.jpg?dpr=1&q=65") no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.summer__babo-look-3 {
+  background: url("https://everlane-2.imgix.net/static/content-page-images/elevate-summer/mobile/v2/04-img.jpg?dpr=1&q=65") no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.summer__sandals-look-1 {
+  background: url("https://everlane.imgix.net/static/content-page-images/elevate-summer/mobile/v2/05-img.jpg?dpr=1&q=65") no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.summer__sandals-look-2 {
+  background: url("https://everlane-2.imgix.net/static/content-page-images/elevate-summer/mobile/v2/06-img.jpg?dpr=1&q=65") no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.summer__sandals-look-3 {
+  background: url("https://everlane.imgix.net/static/content-page-images/elevate-summer/mobile/v2/07-img.jpg?dpr=1&q=65") no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.summer__sandals-2-look-1 {
+  background: url("https://everlane-2.imgix.net/static/content-page-images/elevate-summer/mobile/v4/08-img.jpg?dpr=1&q=65") no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.summer__sandals-2-look-2 {
+  background: url("https://everlane-2.imgix.net/static/content-page-images/elevate-summer/mobile/v2/09-img.jpg?dpr=1&q=65") no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.summer__sandals-2-look-3 {
+  background: url("https://everlane.imgix.net/static/content-page-images/elevate-summer/mobile/v2/10-img.jpg?dpr=1&q=65") no-repeat;
+  background-size: cover;
+  background-position: center; }

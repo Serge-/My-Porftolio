@@ -1,0 +1,22 @@
+﻿@font-face {
+    font-family:SantEliaScriptBoldDEMO; /* Имя шрифта */
+    src: url(../fonts/SantEliaScriptBoldDEMO.otf); /* Путь к файлу со шрифтом */
+   }
+@font-face {
+    font-family:Lato-Regular; /* Имя шрифта */
+    src: url(../fonts/Lato-Regular.ttf); /* Путь к файлу со шрифтом */
+   }
+@font-face {
+    font-family:Lato-Semibold; /* Имя шрифта */
+    src: url(../fonts/Lato-Semibold.ttf); /* Путь к файлу со шрифтом */
+   }
+@font-face {
+    font-family:Lato-Light; /* Имя шрифта */
+    src: url(../fonts/Lato-Light.ttf); /* Путь к файлу со шрифтом */
+   }
+/*@font-face {*/
+    /*font-family:Montserrat-Regular; /!* Имя шрифта *!/*/
+    /*src: url(../fonts/Montserrat-Regular.ttf); /!* Путь к файлу со шрифтом *!/*/
+   /*}*/
+
+   

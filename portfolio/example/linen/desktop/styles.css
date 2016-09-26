@@ -1,0 +1,229 @@
+#content_page_2153 h1, #content_page_2153 h2, #content_page_2153 h3, #content_page_2153 h4, #content_page_2153 h5, #content_page_2153 h6 {
+  text-transform: inherit;
+  color: inherit; }
+
+#content_page_2153 .page__everlane-sans-headline {
+  font-family: everlane-sans;
+  font-size: 220px;
+  font-weight: normal;
+  letter-spacing: 0.26em;
+  line-height: 1em;
+  margin: 0; }
+
+#content_page_2153 .page__serif-headline--huge {
+  font-family: csb;
+  font-size: 78px;
+  font-weight: normal;
+  line-height: 101px; }
+
+#content_page_2153 .page__serif-headline--large {
+  font-family: csb;
+  font-size: 58px;
+  font-weight: normal;
+  line-height: 75px;
+  margin-bottom: 3rem; }
+
+#content_page_2153 .page__serif-headline--medium {
+  font-family: csb;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 32px;
+  margin-top: 2rem; }
+
+#content_page_2153 .page__serif-headline--small {
+  font-family: csb;
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 19px;
+  letter-spacing: 1px;
+  margin-bottom: 1rem; }
+
+#content_page_2153 .page__serif--caps {
+  letter-spacing: 0.14em !important;
+  text-transform: uppercase; }
+
+#content_page_2153 .page__serif-paragraph--large {
+  font-family: csb;
+  font-size: 32px;
+  font-weight: normal;
+  line-height: 48px;
+  margin-bottom: 0; }
+
+#content_page_2153 .page__serif-paragraph--medium {
+  font-family: csb;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 36px;
+  margin-bottom: 2rem; }
+
+#content_page_2153 .page__serif-paragraph--small {
+  font-family: csb;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 29px; }
+
+#content_page_2153 .page__serif-paragraph--tiny {
+  font-family: csb;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 22px; }
+
+#content_page_2153 .page__serif--italic {
+  font-family: csb--italic; }
+
+.linen__fade-in,
+.linen__fade-in--start,
+.linen__fade-in--45,
+.linen__fade-in--after {
+  opacity: 0;
+  transition: opacity 0.6s ease-in-out; }
+
+img {
+  height: auto;
+  width: 100%; }
+
+.row {
+  margin: 0 auto;
+  max-width: 100%; }
+
+.linen__hr {
+  border-top-width: 2px;
+  color: #4c4c4e;
+  margin: 0;
+  width: 100%; }
+
+.linen__pre-title {
+  color: #808284;
+  font-family: csb, Serif;
+  font-size: 14px;
+  letter-spacing: 0.2rem;
+  line-height: 5rem;
+  padding-top: 4rem;
+  text-align: center;
+  text-transform: uppercase; }
+
+.linen__title {
+  color: #4d4d4f;
+  font-family: csb, Serif;
+  font-size: 54px;
+  line-height: 5rem;
+  margin-bottom: 6rem;
+  text-align: center; }
+
+.linen__content-text {
+  color: #4d4d4f;
+  font-family: csb, Serif;
+  font-size: 24px;
+  line-height: 2.75rem;
+  padding: 6rem 0; }
+
+.linen__image-caption {
+  color: #808284;
+  font-family: csb, Serif;
+  font-size: 15px;
+  line-height: 1.2rem;
+  padding-top: 0.5rem;
+  text-transform: capitalize; }
+  .linen__image-caption span {
+    font-size: 14px;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase; }
+
+.linen__price {
+  font-family: csb--italic; }
+
+.linen__intro-container {
+  background-image: url("./images/v2/linen-01.jpg");
+  background-size: cover;
+  color: #fff;
+  height: 100vh;
+  left: 0;
+  max-width: 2000px;
+  position: relative;
+  right: 0;
+  text-align: center;
+  top: 0; }
+  .linen__intro-container .linen__intro-title {
+    font-family: csb, Serif;
+    font-size: 100px;
+    letter-spacing: 1px;
+    padding-bottom: 9rem; }
+  .linen__intro-container .linen__intro-after-title {
+    font-family: csb, Serif;
+    font-size: 25px;
+    letter-spacing: 1px; }
+
+.linen__content-container {
+  background-color: #fff;
+  position: relative; }
+
+.linen__content {
+  margin: 0 auto;
+  max-width: 1440px;
+  padding: 0 20px 35px; }
+
+.linen__second-container {
+  background-image: url("./images/v2/linen-02.jpg");
+  background-size: cover;
+  color: #fff;
+  height: 100vh;
+  max-width: 2000px;
+  position: relative;
+  text-align: center; }
+  .linen__second-container .linen__second-text {
+    font-family: csb, Serif;
+    font-size: 35px;
+    letter-spacing: 1px;
+    line-height: 4.3rem; }
+
+.linen__the-tees-container .linen__content-text {
+  padding: 10rem 0 7rem; }
+
+.linen__the-tees-container,
+.linen__button-downs-container {
+  padding-bottom: 3rem; }
+
+.linen__sweaters-bg {
+  background-image: url("./images/v2/linen-07.jpg");
+  background-position: center center;
+  background-size: cover;
+  color: #4d4d4f;
+  height: 100vh;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+  max-width: 2000px;
+  position: relative; }
+  .linen__sweaters-bg .linen__sweaters-bg-title {
+    font-family: csb, Serif;
+    font-size: 15px;
+    letter-spacing: 0.2rem;
+    line-height: 2.5rem;
+    padding-bottom: 0.5rem;
+    text-transform: uppercase; }
+  .linen__sweaters-bg .linen__sweaters-bg-text {
+    font-family: csb, Serif;
+    font-size: 22px;
+    line-height: 2.5rem; }
+  .linen__sweaters-bg .linen__sweaters-bg-content {
+    bottom: 6rem;
+    position: absolute;
+    right: 2rem;
+    color: #f7f7f7; }
+
+.linen__shop-collection-container {
+  color: #4c4c4e;
+  text-align: center; }
+  .linen__shop-collection-container .linen__shop-collection-content {
+    font-family: csb, Serif;
+    font-size: 30px;
+    letter-spacing: 0.1rem;
+    line-height: 3rem;
+    padding: 4rem 0 5rem; }
+  .linen__shop-collection-container .linen__shop-collection-btn {
+    display: inline-block;
+    font-size: 14px;
+    letter-spacing: 0.1rem;
+    padding: 23px 30px; }
+
+.linen__image-bottom-spacing {
+  margin-bottom: 0.5rem; }
